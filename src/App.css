@@ -109,3 +109,9 @@ body {
   left: -200px;
   animation: cloudMove 25s linear infinite;
 }
+
+.cloud-two {
+  top: 90px;
+  left: -250px;
+  animation: cloudMove 35s linear infinite;
+}
