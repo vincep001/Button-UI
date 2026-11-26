@@ -67,3 +67,9 @@ body {
 .zoom-in {
   animation: zoomIn 0.7s ease-out forwards;
 }
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.3) translateX(-150px);
+  }
