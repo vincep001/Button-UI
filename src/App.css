@@ -86,6 +86,12 @@ body {
   }
 }
 
+
+
+
+
+
+
 .cloud-layer {
   position: fixed;
   top: 0;
@@ -107,21 +113,58 @@ body {
 .cloud-one {
   top: 20px;
   left: -200px;
-  animation: cloudMove 25s linear infinite;
+  animation: cloudMove 22s linear infinite;
 }
 
 .cloud-two {
-  top: 90px;
+  top: 65px;
   left: -250px;
-  animation: cloudMove 35s linear infinite;
+  animation: cloudMove 30s linear infinite;
+  animation-delay: -8s;
 }
+
+.cloud-three {
+  top: 5px;
+  animation: cloudMove 27s linear infinite;
+  animation-delay: -15s;
+}
+
+.cloud-four {
+  top: 95px;
+  animation: cloudMove 35s linear infinite;
+  animation-delay: -20s;
+}
+
+.cloud-five {
+  top: 35px;
+  animation: cloudMove 25s linear infinite;
+  animation-delay: -5s;
+}
+
+.cloud-six {
+  top: 75px;
+  animation: cloudMove 32s linear infinite;
+  animation-delay: -25s;
+}
+
+.cloud-seven {
+  top: 15px;
+  animation: cloudMove 29s linear infinite;
+  animation-delay: -12s;
+}
+
+
+
+
+
+
 
 @keyframes cloudMove {
   from {
-    transform: translateX(0);
+   left: -180px;
   }
 
   to {
-    transform: translateX(calc(100vw + 300px));
+    left: 100%;
   }
 }
