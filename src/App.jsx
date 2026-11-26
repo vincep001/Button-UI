@@ -4,12 +4,7 @@ import './App.css'
 function App() {
   const [showMedia, setShowMedia] = useState(false)
 
-  
-  const mediaUrl = ''
-
-  const mediaType = 'gif'
-
-
+  const mediaUrl = 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmtxNm52bmc4M2pqYmthNGJra3VnM2JrenRxbXFvNXF5ZGNlYmp4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UoTiYh27n5nnmVjAi6/giphy.gif'
 
   return (
     <main className="container">
@@ -21,13 +16,12 @@ function App() {
       </button>
 
       {showMedia && (
-        <div className="modal" onClick={() => setShowMedia(false)}>
-          <div className="modal-conten zoom-in" onClick={(e) => e.stopPropagation()}>
-            {mediaType === 'video' ? (
-              <video src={mediaUrl} controls autoPlay />
-            ) : (
-              <img src={mediaUrl} alt="Animated GIF" />
-            )}
+       <div className="modal">
+          <div
+            className="modal-content zoom-in"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img src={mediaUrl} alt="Animated GIF" />
 
             <button
               className="close-button"
