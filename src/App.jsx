@@ -1,5 +1,8 @@
 import { useState } from 'react'
+import cloud1 from './assets/white-cloud-clipart-design-illustration-free-png.webp'
+import cloud2 from './assets/white-cloud-with-shadow-design-element-free-png.webp'
 import './App.css'
+
 
 function App() {
   const [showMedia, setShowMedia] = useState(false)
