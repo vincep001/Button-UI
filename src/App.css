@@ -63,3 +63,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
+.zoom-in {
+  animation: zoomIn 0.7s ease-out forwards;
+}

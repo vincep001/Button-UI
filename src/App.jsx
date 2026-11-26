@@ -22,7 +22,7 @@ function App() {
 
       {showMedia && (
         <div className="modal" onClick={() => setShowMedia(false)}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div className="modal-conten zoom-in" onClick={(e) => e.stopPropagation()}>
             {mediaType === 'video' ? (
               <video src={mediaUrl} controls autoPlay />
             ) : (
