@@ -11,6 +11,10 @@ function App() {
 
   return (
     <main className="container">
+      <div className="cloud-layer">
+  <img src={cloud1} className="cloud cloud-one" alt="" />
+  <img src={cloud2} className="cloud cloud-two" alt="" />
+</div>
       <button
         className="animated-button"
         onClick={() => setShowMedia(true)}
