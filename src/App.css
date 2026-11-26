@@ -94,7 +94,7 @@ body {
   height: 180px;
   overflow: hidden;
   pointer-events: none;
-  z-index: 11;
+  z-index: 5;
 }
 
 .cloud {
@@ -114,4 +114,14 @@ body {
   top: 90px;
   left: -250px;
   animation: cloudMove 35s linear infinite;
+}
+
+@keyframes cloudMove {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(100vw + 300px));
+  }
 }

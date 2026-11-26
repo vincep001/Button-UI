@@ -14,6 +14,11 @@ function App() {
       <div className="cloud-layer">
   <img src={cloud1} className="cloud cloud-one" alt="" />
   <img src={cloud2} className="cloud cloud-two" alt="" />
+  <img src={cloud1} className="cloud cloud-three" alt="" />
+  <img src={cloud2} className="cloud cloud-four" alt="" />
+  <img src={cloud1} className="cloud cloud-five" alt="" />
+  <img src={cloud2} className="cloud cloud-six" alt="" />
+  <img src={cloud1} className="cloud cloud-seven" alt="" />
 </div>
       <button
         className="animated-button"
