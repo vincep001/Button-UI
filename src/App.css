@@ -33,7 +33,7 @@ body {
 .modal {
   position: fixed;
   inset: 0;
-  background: #a3dde2;
+  background: rgba(163, 221, 226, 0.45);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +100,7 @@ body {
   height: 180px;
   overflow: hidden;
   pointer-events: none;
-  z-index: 5;
+  z-index: 1;
 }
 
 .cloud {

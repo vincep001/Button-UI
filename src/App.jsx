@@ -10,16 +10,17 @@ function App() {
   const mediaUrl = 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmtxNm52bmc4M2pqYmthNGJra3VnM2JrenRxbXFvNXF5ZGNlYmp4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UoTiYh27n5nnmVjAi6/giphy.gif'
 
   return (
-    <main className="container">
+    <>
       <div className="cloud-layer">
-  <img src={cloud1} className="cloud cloud-one" alt="" />
-  <img src={cloud2} className="cloud cloud-two" alt="" />
-  <img src={cloud1} className="cloud cloud-three" alt="" />
-  <img src={cloud2} className="cloud cloud-four" alt="" />
-  <img src={cloud1} className="cloud cloud-five" alt="" />
-  <img src={cloud2} className="cloud cloud-six" alt="" />
-  <img src={cloud1} className="cloud cloud-seven" alt="" />
-</div>
+      <img src={cloud1} className="cloud cloud-one" alt="" />
+      <img src={cloud2} className="cloud cloud-two" alt="" />
+      <img src={cloud1} className="cloud cloud-three" alt="" />
+      <img src={cloud2} className="cloud cloud-four" alt="" />
+      <img src={cloud1} className="cloud cloud-five" alt="" />
+      <img src={cloud2} className="cloud cloud-six" alt="" />
+      <img src={cloud1} className="cloud cloud-seven" alt="" />
+    </div>
+    <main className="container">
       <button
         className="animated-button"
         onClick={() => setShowMedia(true)}
@@ -45,6 +46,7 @@ function App() {
         </div>
       )}
     </main>
+  </>
   )
 }
 
